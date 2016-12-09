@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch index.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/saradaannarapa/NodeTraining/issues"
   },
-  "homepage": "https://github.com/saradaannarapa/NodeTraining#readme"
+  "homepage": "https://github.com/saradaannarapa/NodeTraining#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
